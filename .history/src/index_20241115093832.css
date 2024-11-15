@@ -91,10 +91,6 @@ select {
   height: 250px;
   border-radius: 10px;
   margin: auto;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .cardTitle {

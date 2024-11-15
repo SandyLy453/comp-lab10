@@ -82,19 +82,14 @@ select {
   border: 1px solid #79ff64;
   border-radius: 20px;
   margin: 10px 20px 10px 20px;
-  width: 450px;
-  height: 700px;
+  width: fit-content;
+  height: 650px;
 }
 
 .cardPhoto {
   width: 400px;
   height: 250px;
   border-radius: 10px;
-  margin: auto;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .cardTitle {
@@ -104,7 +99,7 @@ select {
 }
 
 .breaker {
-  width: 450px;
+  width: 400px;
   margin: 0 auto 5px auto;
   color: #79ff64;
   background-color: #79ff64;
@@ -113,27 +108,6 @@ select {
 
 .cardInfo {
   padding-left: 10px;
-  text-wrap: wrap;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
 }
 
-.cardText {
-  padding-bottom: 10px;
-}
 
-.cardLink {
-  padding-left: 10px;
-  margin-top: 20px;
-  text-decoration: none;
-  color:#79ff64;
-}
-
-.cardLink:hover {
-  font-weight: bold;
-}
-
-span {
-  font-weight: bold;
-  color: aquamarine;
-}

@@ -3,9 +3,7 @@
 export default function Country({ country }) {
 
   const currencies = country.currencies
-    ? Object.values(country.currencies)
-        .map((currency) => `${currency.name} (${currency.symbol || ""})`)
-        .join(", ")
+    ? Object.values(country.currencies).map((currency) => currency.name).join(", ")
     : "N/A";
 
   const languages = country.languages
